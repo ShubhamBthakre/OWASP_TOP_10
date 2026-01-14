@@ -34,3 +34,32 @@ Create a folder for each risk using the names above. Inside each folder, include
 - `secure/` — Fixed/secure versions of the examples
 - `prevention.md` — Best practices and mitigation steps
 - `references.md` or links — Official OWASP page, additional resources, tools
+
+Example:
+
+A01-Broken-Access-Control/
+├── README.md
+├── vulnerable/
+│   ├── java-example/
+│   └── nodejs-example/
+├── secure/
+│   ├── java-fixed/
+│   └── nodejs-fixed/
+└── prevention.md
+
+
+
+## Official Reference
+
+- OWASP Top 10 2025: https://owasp.org/Top10/
+- Individual risk pages: https://owasp.org/Top10/A01_2025-broken_access_control/ (replace with the corresponding slug)
+
+## Contributing
+
+Contributions are welcome!  
+Add examples, improve explanations, include code in more languages (Python, Java, Node.js, Go, etc.), or suggest new resources.  
+Just open a Pull Request.
+
+## License
+
+Content is licensed under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) to align with OWASP's licensing.
